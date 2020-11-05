@@ -1,0 +1,42 @@
+.body{
+    font: 20px arial sans-serif;
+}
+.navbar{
+    background-color:#1E6F7F ;
+}
+
+.quem-somos{
+    background-color:#215A77;
+    color:white;
+
+
+
+}
+
+.margin{
+    /** o margin-top não funciona nesse caso por que não desejamos colocar uma margin em branco, usar o padding fará uma margem interna e a cor ainda estará la**/
+
+    padding-top:10px;
+    padding-bottom: 60px;
+
+}
+
+.parceiros{
+    background-color:#2B759A;
+    color:white;
+
+}
+
+.servicos{
+    background-color: #307FA7;
+    color:white;
+
+}
+
+.footer-dev{
+    background-color: #5E5F5F;
+    color:white;
+
+}
+
+
