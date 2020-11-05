@@ -1,0 +1,104 @@
+<!doctype html>
+
+<html lang="pt-br">
+    
+    <head>
+        <title>My Page</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"> 
+                <img src="img/logo.png"class="rounded-circle"width="150px" height="100px" >
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quem-somos">Quem somos</a>   
+    
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parceiros">Parceiros</a>   
+    
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>   
+    
+                    </li>
+
+
+                </ul>
+            </div>
+        </nav>
+        <section id="quem-somos">
+            <!--o bootstrap já formata essa div com o espaço do texto a direita. :3 isso se dá por causa do container,porem se usar a propriedade fluid a formatção não acontece.
+            Se usar o text-center, o texto ficara centralizado -->
+            
+            <div class="Container-fluid quem-somos text-center margin">
+                <h3 class="margin">QUEM SOMOS?</h3>
+                <img src="img/page.jpeg" class="rounded-circle" width="300px" height="300px">
+                <h3>Somos um time comprometido com a busca pelo conhecimento além das fronteiras</h3>
+
+            </div>
+        </section>
+
+        <section id="parceiros">
+            <div class="Container-fluid parceiros text-center margin">
+            <h3 class="margin">PARCEIROS</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="img/page2.jpeg"width="300px" height="300px" class="rounded-circle">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/par1.jpeg"width="300px"height="300px" class="rounded-circle">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/par2.jpeg"width="300px" height="300px" class="rounded-circle">
+                    </div>
+                    
+                </div>
+            </div>   
+            
+        </section>
+
+
+        <section id="servicos">
+            <div class="Container-fluid servicos text-center margin">
+            <h3 class="margin">SERVIÇOS</h3>
+            <div class="Container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>  A NASA já registrou mais de 3 milhões de fotos feitas pelo satélite Terra, em órbita desde 1999. Todas essas fotos são de domínio público, você pode ver e se maravilhar à vontade com o nosso universo.
+
+                        </p>
+                        <img src="img/page3.jpeg"width="300px" height="300px" class="rounded-circle">
+                    </div>
+                    <div class="col-md-4">
+                        <p>Para ser considerado oficialmente um astronauta pela NASA, você precisa viajar pelo menos 50 milhas acima da superfície da Terra, o que dá aproximadamente 80km.</p>
+                        <img src="img/page4.jpeg"width="300px" height="300px" class="rounded-circle">
+                    </div>
+                    <div class="col-md-4">
+                        <p>O grande objetivo atual da NASA é ter humanos morando em Marte por volta de 2030. Está perto, né?</p>
+                        <img src="img/page5.jpeg" width="300px" height="300px" class="rounded-circle">
+                    </div>
+                </div>
+            </div>
+        </div>
+           
+        </section>
+
+        <footer class="container-fluid footer-dev text-center margin">
+            <p>Desenvolvido por Tavares</p>
+        </footer>
+
+    </body>
+</html>
